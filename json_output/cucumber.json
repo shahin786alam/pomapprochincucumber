@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "validate free crm home page",
+        "description": "",
+        "id": "free-crm-application-test;validate-free-crm-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13334882000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "StepDefinitionsFile.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133669600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinitionsFile.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3538868099,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logs in to app",
+            "match": {
+              "location": "StepDefinitionsFile.user_logs_in_to_app()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9062200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate home page title",
+            "match": {
+              "location": "StepDefinitionsFile.validate_home_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 855137200,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#Then validate logged in username"
+              }
+            ],
+            "line": 10,
+            "name": "user close the browser",
+            "match": {
+              "location": "StepDefinitionsFile.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "free crm application Test",
+    "description": "",
+    "id": "free-crm-application-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/Shahin Alam/eclipse-workspace/pomapprochincucumber/src/main/java/com/qa/free/crm/feature/testlogin.feature"
+  }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.871619">
+<testcase classname="free crm application Test" name="validate free crm home page" time="17.871619">
+<system-out><![CDATA[Given user opens browser....................................................passed
+Then user is on login page..................................................passed
+Then user logs in to app....................................................passed
+Then validate home page title...............................................passed
+Then user close the browser.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
